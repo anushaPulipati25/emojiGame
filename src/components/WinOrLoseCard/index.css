@@ -1,0 +1,87 @@
+.statusCardContainer {
+  width: 80%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: solid 2px #ffffff33;
+  background-color: #ffffff33;
+  border-radius: 20px;
+}
+
+.statusImg {
+  width: 38%;
+}
+.statusHeader {
+  font-family: roboto;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.scoreDescription {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.score {
+  font-family: roboto;
+  font-size: 30px;
+  color: #6a59ff;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.playBtn {
+  background-color: #ffce27;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  border-width: 0px;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 576px) {
+  .statusCardContainer {
+    width: 55%;
+  }
+  .statusImg {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .statusCardContainer {
+    /* width: 44%; */
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .statusImg {
+    order: 1;
+    width: 40%;
+    margin-right: 10px;
+  }
+  .statusHeader {
+    font-size: 36px;
+  }
+  .scoreDescription {
+    font-size: 24px;
+  }
+  .score {
+    font-family: 36px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .statusHeader {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,65 @@
+.navContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gameName {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 16px;
+  padding-right: 5px;
+}
+.scoreText {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+.logoContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.scoreContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 340px) {
+  .gameName {
+    font-size: 14px;
+  }
+  .scoreText {
+    font-size: 12px;
+  }
+  .scoreContainer {
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+@media screen and (min-width: 576px) {
+  .gameName {
+    font-size: 16px;
+  }
+  .scoreText {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gameName {
+    font-size: 18px;
+  }
+  .scoreText {
+    font-size: 20px;
+  }
+}
